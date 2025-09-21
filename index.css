@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background: #fff;
+}
+
+/* Navbar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  border-bottom: 1px solid #ccc;
+}
+header h1 {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 18px;
+  margin: 0;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+nav ul li a.active {
+  border-bottom: 2px solid black;
+  padding-bottom: 4px;
+}
+.nav-icons {
+  display: flex;
+  gap: 15px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Hero / Banner */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eaeaea;
+  padding: 50px;
+}
+.hero-left {
+  flex: 1;
+}
+.hero-left h3 {
+  margin-bottom: 20px;
+}
+.carousel-dots {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #ccc;
+}
+.dot.active {
+  background: black;
+}
+.hero-right {
+  flex: 1;
+  background: #ddd;
+  padding: 50px;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Intro Section */
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px;
+  gap: 40px;
+}
+.intro-text {
+  flex: 2;
+}
+.intro-text h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.intro-text p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.intro-text button {
+  padding: 10px 20px;
+  border: 1px solid black;
+  background: transparent;
+  cursor: pointer;
+}
+.intro-img {
+  flex: 1;
+  border: 1px solid #aaa;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f2f2f2;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #ccc;
+  color: #555;
+  font-size: 14px;
+}
+footer span {
+  color: blue;
+  font-weight: bold;
+}
